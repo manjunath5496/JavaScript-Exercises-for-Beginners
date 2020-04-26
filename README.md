@@ -135,3 +135,37 @@ document.write(" The division of two numbers is:     " + z);
 Try it Yourself &raquo; </a></div>
 </br>
 
+
+# Question 5
+
+### **Question:**
+
+> ***Write a program to multiply two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+<!DOCTYPE html>
+<html>
+<body>
+<p> A typical multiplication operation multiplies two numbers and produces a new number.</p>
+<script>
+var x ;
+var y;
+var z;
+x=300;
+y = 200;
+z = x* y;
+document.write(" The multiplication of two numbers is:     " + z);
+</script>
+</body>
+</html>
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/5.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
