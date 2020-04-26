@@ -236,6 +236,38 @@ document.write(" The square root of a number z is: " + z);
 Try it Yourself &raquo; </a></div>
 </br>
 
+# Question 8
+
+### **Question:**
+
+> ***Write a program to find the cube root of a number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var x ;
+var z;
+x=4;
+z = Math.cbrt(x);
+document.write(" The cube root of a number z is: " + z);
+</script>
+</body>
+</html>
+
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/8.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
 
 
 
