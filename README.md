@@ -75,14 +75,14 @@ Try it Yourself &raquo; </a></div>
 <!DOCTYPE html>
 <html>
 <body>
-<h1>A typical subtraction operation subtracts two numbers and produces a new number.</h1>
+<p>A typical subtraction operation subtracts two numbers and produces a new number.</p>
 <script>
 var x ;
 var y;
 var z;
 x=300;
 y = 200;
-z = x- y;
+z = x-y;
 document.write(" The difference of two numbers is:     " + z);
 </script>
 </body>
