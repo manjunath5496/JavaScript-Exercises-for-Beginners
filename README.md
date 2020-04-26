@@ -512,3 +512,43 @@ document.write("<br> average of the first10 numbers =  </br>" + avg);
 Try it Yourself &raquo; </a></div>
 </br>
 
+
+# Question 16
+
+### **Question:**
+
+> ***Write a program to add two numbers using JavaScript function.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function addition(a, b) {
+return a + b;
+}
+document.write("" + addition(4, 3));
+</script>
+</body>
+</html>
+
+
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/16.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
+
+
+
+
+
+
+
