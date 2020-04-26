@@ -269,6 +269,38 @@ document.write(" The cube root of a number z is: " + z);
 Try it Yourself &raquo; </a></div>
 </br>
 
+# Question 9
+
+### **Question:**
+
+> ***Write a program to round off a number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var x ;
+var z;
+x=4.5;
+z = Math.round(x);
+document.write(" The round off a number z is: " + z);
+</script>
+</body>
+</html>
+
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/9.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
 
 
 
