@@ -347,3 +347,37 @@ document.write(" The decremented value of  y  is: " + b);
 Try it Yourself &raquo; </a></div>
 </br>
 
+# Question 11
+
+### **Question:**
+
+> ***Write a program to find the greatest of two numbers using if – else statement.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var x ;
+var y;
+x=4;
+y=6;
+if(x>y){
+document.write(" x is greater than y");
+} else {
+document.write(" y is greater than x");
+}
+</script>
+</body>
+</html>
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/11.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
