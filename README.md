@@ -381,3 +381,32 @@ document.write(" y is greater than x");
 <a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/11.html" target="_blank">
 Try it Yourself &raquo; </a></div>
 </br>
+# Question 12
+
+### **Question:**
+
+> ***Write a program to print the first ten natural numbers using for loop statement.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var i ;
+for (i=1; i<=10; i++)
+document.write("" +  i);
+</script>
+</body>
+</html>
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/12.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
