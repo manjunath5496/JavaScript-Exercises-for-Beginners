@@ -169,3 +169,42 @@ document.write(" The multiplication of two numbers is:     " + z);
 <a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/5.html" target="_blank">
 Try it Yourself &raquo; </a></div>
 </br>
+
+
+# Question 6
+
+### **Question:**
+
+> ***Write a program to find the area of a circle.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var r ;
+var area;
+r=3;
+area = 4*3.14* r* r;
+document.write(" The area of the circle is:     " + area +"\n centimeter square");
+</script>
+</body>
+</html>
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/6.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
+
+
+
+
+
+
