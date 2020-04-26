@@ -547,7 +547,34 @@ Try it Yourself &raquo; </a></div>
 </br>
 
 
+# Question 17
 
+### **Question:**
+
+> ***Write a program to display the current date and time.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+<!DOCTYPE html>
+<html>
+<body>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="demo"></p>
+</body>
+</html> 
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/17.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
 
 
 
