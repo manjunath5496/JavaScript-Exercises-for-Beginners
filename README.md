@@ -303,4 +303,47 @@ Try it Yourself &raquo; </a></div>
 </br>
 
 
+# Question 10
+
+### **Question:**
+
+> ***Write a program to find the incremented and decremented values of two numbers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var x ;
+var y;
+var z;
+var p;
+var a;
+var b;
+x=4;
+y=6;
+z=x+1;
+p=x-1;
+a = y+1;
+b= y-1;
+document.write(" The incremented value of  x  is: " + z);
+document.write(" The decremented value of  x  is: " + p);
+document.write(" The incremented value of  y  is: " + a);
+document.write(" The decremented value of  y  is: " + b);
+</script>
+</body>
+</html>
+
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/10.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
 
