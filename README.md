@@ -203,6 +203,38 @@ document.write(" The area of the circle is:     " + area +" centimeter square");
 Try it Yourself &raquo; </a></div>
 </br>
 
+# Question 7
+
+### **Question:**
+
+> ***Write a program to find the square root of a number.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var x ;
+var z;
+x=4;
+z = Math.sqrt(x);
+document.write(" The square root of a number z is: " + z);
+</script>
+</body>
+</html>
+
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/7.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
 
 
 
