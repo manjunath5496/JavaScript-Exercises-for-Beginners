@@ -477,4 +477,38 @@ Try it Yourself &raquo; </a></div>
 </br>
 
 
+# Question 15
+
+### **Question:**
+
+> ***Write a program to print the average of the first 10 numbers using for loop statement.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var i, avg, sum = 0;
+for( i=1; i<=10; i++)
+sum = sum + i;
+avg = sum/10;
+document.write("<br> sum of the first 10 numbers =  </br>" + sum);
+document.write("<br> average of the first10 numbers =  </br>" + avg);
+</script>
+</body>
+</html>
+
+
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/15.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
 
