@@ -442,3 +442,39 @@ document.write("" +  i++);
 <a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/13.html" target="_blank">
 Try it Yourself &raquo; </a></div>
 </br>
+
+
+# Question 14
+
+### **Question:**
+
+> ***Write a program to print the first nine natural numbers using do while loop statement.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var i=1 ;
+do{
+document.write("" +  i++);
+} while (i<10)
+</script>
+</body>
+</html>
+
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/14.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
+
+
+
