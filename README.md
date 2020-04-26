@@ -411,3 +411,34 @@ document.write("" +  i);
 <a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/12.html" target="_blank">
 Try it Yourself &raquo; </a></div>
 </br>
+
+# Question 13
+
+### **Question:**
+
+> ***Write a program to print the first ten natural numbers using while loop statement.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var i=1 ;
+while (i<=10)
+document.write("" +  i++);
+</script>
+</body>
+</html>
+
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/13.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
