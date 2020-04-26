@@ -190,7 +190,7 @@ var r ;
 var area;
 r=3;
 area = 4*3.14* r* r;
-document.write(" The area of the circle is:     " + area +"\n centimeter square");
+document.write(" The area of the circle is:     " + area +" centimeter square");
 </script>
 </body>
 </html>
