@@ -776,3 +776,38 @@ document.write(sum);
 Try it Yourself &raquo; </a></div>
 </br>
 
+# Question 24
+
+### **Question:**
+
+> ***Write a program to create the dot products of two given 3D vectors.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function dot_product(vector1, vector2) {
+  var result = 0;
+  for (var i = 0; i < 3; i++) {
+    result += vector1[i] * vector2[i];
+  }
+  return result;
+}
+document.write(dot_product([1,2,3], [1,2,3]))
+</script>
+</body>
+</html>
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/24.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
