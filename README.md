@@ -674,6 +674,38 @@ Try it Yourself &raquo; </a></div>
 </br>
 
 
+# Question 21
+
+### **Question:**
+
+> ***Write a program to reverse a given string.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function string_reverse(str) 
+{
+    return str.split("").reverse().join("");
+}
+document.write(string_reverse("JavaScript"));
+</script>
+</body>
+</html>
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/21.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
+
 
 
 
