@@ -612,3 +612,36 @@ document.write(area);
 Try it Yourself &raquo; </a></div>
 </br>
 
+
+# Question 19
+
+### **Question:**
+
+> ***Write a program to find the area of a triangle where lengths of the three of its sides are 5, 6, 7.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script>
+function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+document.getElementById("demo").innerHTML = toCelsius(77);
+</script>
+</body>
+</html>
+
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/19.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
