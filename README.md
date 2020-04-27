@@ -976,3 +976,49 @@ document.write(sort_prime(11));
 <a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/28.html" target="_blank">
 Try it Yourself &raquo; </a></div>
 </br>
+
+
+# Question 29
+
+### **Question:**
+
+> ***Write a program to check whether there is at least one element which occurs in two given sorted arrays of integers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function check_common_element(arra1, arra2) {
+  for (var i = 0; i < arra1.length; i++)
+  {
+    if (arra2.indexOf(arra1[i]) != -1) 
+      return true;
+  }
+  return false;
+}
+document.write(check_common_element([1,2,3], [3,4,5]));
+</script>
+</body>
+</html>
+
+
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/29.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
+
+
+
+
+
+
