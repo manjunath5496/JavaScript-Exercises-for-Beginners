@@ -743,3 +743,36 @@ Try it Yourself &raquo; </a></div>
 </br>
 
 
+# Question 23
+
+### **Question:**
+
+> ***Write a program to find sum of array elements.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var num = [1,2,3,4]
+var sum = 0;
+for(var i = 0; i < num.length; i++){
+  sum += num[i]
+}
+document.write(sum);
+</script>
+</body>
+</html>
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/23.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
+
