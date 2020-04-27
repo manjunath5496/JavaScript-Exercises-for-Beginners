@@ -928,3 +928,51 @@ document.write(remove_duplicate_cchars("abcdabc"));
 <a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/27.html" target="_blank">
 Try it Yourself &raquo; </a></div>
 </br>
+
+# Question 28
+
+### **Question:**
+
+> ***Write a program to sort an array of all prime numbers between 1 and a given integer.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function sort_prime(num) {
+
+  var prime_num1 = [],
+      prime_num2 = [];
+  for (var i = 0; i <= num; i++) {
+    prime_num2.push(true);
+  }
+  for (var i = 2; i <= num; i++) {
+    if (prime_num2[i]) {
+      prime_num1.push(i);
+      for (var j = 1; i * j <= num; j++) {
+        prime_num2[i * j] = false;
+      }
+    }
+  }
+
+  return prime_num1;
+}
+document.write(sort_prime(11));
+</script>
+</body>
+</html>
+
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/28.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
