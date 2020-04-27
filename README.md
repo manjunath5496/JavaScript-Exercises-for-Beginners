@@ -1018,6 +1018,46 @@ Try it Yourself &raquo; </a></div>
 </br>
 
 
+# Question 30
+
+### **Question:**
+
+> ***Write a program to find the maximum difference between any two adjacent elements of a given array of integers.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function max_difference(arr) {
+	var max = -1;
+    var temp;
+	for (var i = 0; i < arr.length - 1; i++)
+      {
+		temp = Math.abs(arr[i] - arr[i + 1]);
+		max = Math.max(max, temp);
+	  }
+	return max;
+}
+
+document.write(max_difference([1, 2, 3, 8, 9]));
+</script>
+</body>
+</html>
+
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/30.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
 
 
 
