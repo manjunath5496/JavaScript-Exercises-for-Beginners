@@ -811,3 +811,44 @@ document.write(dot_product([1,2,3], [1,2,3]))
 <a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/24.html" target="_blank">
 Try it Yourself &raquo; </a></div>
 </br>
+
+# Question 25
+
+### **Question:**
+
+> ***Write a program to find the number of even digits in a given integer.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function even_digits(num) {
+  var ctr = 0;
+  while (num) {
+    ctr += num % 2 === 0;
+    num = Math.floor(num / 10);
+  }
+  return ctr;
+}
+document.write(even_digits(124));
+</script>
+</body>
+</html>
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/25.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
+
+
+
+
