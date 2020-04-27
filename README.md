@@ -708,4 +708,38 @@ Try it Yourself &raquo; </a></div>
 
 
 
+# Question 22
+
+### **Question:**
+
+> ***Write a program to count the number of vowels in a given string.***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function vowel_Count(str)
+{ 
+
+  return str.replace(/[^aeiou]/g, "").length; 
+}
+document.write(vowel_Count("Python")); 
+</script>
+</body>
+</html>
+
+
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/22.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
+
 
