@@ -645,3 +645,35 @@ document.getElementById("demo").innerHTML = toCelsius(77);
 <a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/19.html" target="_blank">
 Try it Yourself &raquo; </a></div>
 </br>
+
+# Question 20
+
+### **Question:**
+
+> ***Write a program to get the website URL (loading page).***
+
+---------------------------------------
+
+<strong>Solution: </strong>
+
+```JS language
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+alert(document.URL);
+</script>
+</body>
+</html>
+
+```
+----------------------------------------
+
+<a class="w3-btn w3-margin-bottom" href="https://manjunath5496.github.io/JavaScript/20.html" target="_blank">
+Try it Yourself &raquo; </a></div>
+</br>
+
+
+
+
+
